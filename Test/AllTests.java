@@ -1,10 +1,10 @@
-package applications.Test;
+package Test;
 
 import junit.framework.Test;
 import junit.framework.TestSuite;
 
 public class AllTests {
-    public static Test suite() {
+    public static <TestSuite> Test suite() {
         TestSuite suite = new TestSuite("Testting");
         //$JUnit-BEGIN$
         suite.addTestSuite(TestReq1.class);
